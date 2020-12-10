@@ -21,7 +21,7 @@ DB_USERNAME=sivchari
 DB_PASSWORD=sivchari
 
 のように書き換える
-DB_HOST=127.0.0.1をDB_HOST=laravel-mysqlに変更
+DB_HOST=127.0.0.1をDB_HOST=mysqlに変更
 ```
 3. php artisan key:generate
 4. php artisan migrate
@@ -30,5 +30,5 @@ DB_HOST=127.0.0.1をDB_HOST=laravel-mysqlに変更
 これで開発環境完了です。
 
 ブラウザ確認は
-localhost::80
+localhost:8000
 
