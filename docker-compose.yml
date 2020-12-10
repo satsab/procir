@@ -14,7 +14,7 @@ services:
       - "mysql"
     volumes:
       - "./docker/web/default.conf:/etc/nginx/conf.d/default.conf"
-      - ".:/var/www/html"
+      - "./src:/var/www/html"
     
   php:
     build: "./docker/php"
